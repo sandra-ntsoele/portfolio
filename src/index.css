@@ -7,6 +7,14 @@ body
    color: #444444;
 }
 
+.dark
+{
+   --bs-bg-opacity: 1;
+    background-color: rgba(var(--bs-black-rgb),var(--bs-bg-opacity))!important;
+    --bs-text-opacity: 1;
+    color: rgba(var(--bs-light-rgb),var(--bs-text-opacity))!important;
+}
+
 p
 {
    font-weight: 300;
