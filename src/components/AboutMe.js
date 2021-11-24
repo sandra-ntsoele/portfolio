@@ -1,14 +1,14 @@
 function AboutMe () {
    return (
-      <section className="col-6">
+      <section className="col-8 fs-5">
          <p className="mt-5">
-            I am an aspiring 'self taught' developer. Who first learned the basics of programming with Java but quickly moved away from that after developing an interest in web development.
+            <b className="fw-bold">Aspiring self-taught programmer</b>. Who began learning the fundamentals of programming with Java but quickly abandoned it after developing an interest in web development.
          </p>
          <p>
-            I started learning HTML/CSS/JavaScript, created a few horrendous looking websites and later on a friend introduced to Node.js/express and a little MongoDB.
+            I began by learning <b className="fw-bold">HTML/CSS/JavaScript</b>, created a few hideous websites, and was later introduced to Node.js/express and a little MongoDB by a friend.
          </p>
          <p>
-            More recently I have been learning the .NET stack as an attempt to get the necessary skills to land a dev job opportunity and achieve the goal of being a full-stack developer.
+            Recently, I've been learning the.NET stack in an attempt to gain the skills needed to land a dev job and achieve my goal of becoming a <b className="fw-bold">full-stack developer</b>.
          </p>
       </section>
    );

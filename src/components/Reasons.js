@@ -52,7 +52,7 @@ function Reasons ()
 
                <div className="col text-lg-end reason-three" data-aos="fade-left">
                   <img src={reasonThreeImg} alt="" width="350px"></img>
-                  <h5 className="mt-5">Embracing A Modern Stack</h5>
+                  <h5 className="mt-5">The Tech Stack</h5>
                   <p>
                      Even though the future is uncertain, at the moment JS seems to be taking over. So it excites me knowing that SovTech embraces a stack that is in sync with the industry and possibly the future. &#9994;
                   </p>
