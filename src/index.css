@@ -3,4 +3,11 @@ body {
    font-family: 'Roboto', sans-serif;
    -webkit-font-smoothing: antialiased;
    -moz-osx-font-smoothing: grayscale;
+   color: #444444;
+}
+
+p
+{
+   font-weight: 500;
+   line-height: 1.6111em;
 }
