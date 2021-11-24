@@ -7,8 +7,8 @@ function Header () {
             <span className="fs-6">Hardworking. Overthinker</span>
          </h2>
          <div className="form-check form-switch col-4 d-grid">
-            <span className="fs-6 d-none d-md-block">Dark Mode</span>
-            <input className="form-check-input m-0" type="checkbox" role="switch" id="flexSwitchCheckDefault"/>
+            <span className="fs-6 d-none d-md-block text-end">Dark Mode</span>
+            <input className="form-check-input ms-auto" type="checkbox" role="switch" id="flexSwitchCheckDefault"/>
             <label className="form-check-label" htmlFor="flexSwitchCheckDefault"></label>
          </div>
 
