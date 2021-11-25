@@ -1,8 +1,5 @@
 # Sandra Ntsoele's Portfolio
 
-## Description
-A landing page, telling about me and why I aspire to be a software developer.
-
 ## Technologies Used
 
 - JavaScript
