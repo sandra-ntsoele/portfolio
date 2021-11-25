@@ -23,8 +23,12 @@ git clone https://github.com/sandra-ntsoele/sandra-ntsoele.git
 ```
 cd sandra-ntsoele
 ```
+4. Install node modules
+```
+npm install
+```
 
-4. Start the app
+5. Start the app
 ```
 npm start
 ```
