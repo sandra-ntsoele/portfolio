@@ -1,6 +1,6 @@
 function AboutMe () {
    return (
-      <section className="col-8 fs-5">
+      <section className="col-lg-8 fs-5">
          <p className="mt-5">
             <b className="fw-bold">Aspiring self-taught programmer</b>. Who began learning the fundamentals of programming with Java but quickly abandoned it after developing an interest in web development.
          </p>

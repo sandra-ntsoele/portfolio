@@ -8,20 +8,23 @@ import reasonFourImg from "../images/reason-4.jpg";
 function Reasons ()
 {
    return (
-      <section>
-         <div className="d-flex mt-5">
+      <section id="reasons-section">
+         <div className="d-lg-flex mt-5">
             <h2 className="me-lg-3 mb-0">
-               Why I want to become a developer @ SovTech
+               Why I want to become a developer
             </h2>
-            <img className="img-fluid my-auto" src={SovTechLogo} alt="SovTech logo" width="23rem" height="100%"></img>
+            <span className="fs-3">
+               @ SovTech
+               <img className="img-fluid my-auto" src={SovTechLogo} alt="SovTech logo" width="23rem" height="100%"></img>
+            </span>
          </div>
 
-         <div className="row col-10 mx-auto">
+         <div id="reasons" className="row col-lg-10 mx-auto">
             {/* Left side */ }
-            <div className="col mt-5 reasons">
+            <div className="col-sm mt-5 col-lg-5 mx-auto">
 
                <div className="col reason-two" data-aos="fade-right">
-                  <img src={reasonTwoImg} alt="" width="350px"></img>
+                  <img src={reasonTwoImg} alt="" width="100%"></img>
                   <h5 className="mt-5">Project Variety</h5>
                   <p>
                      SovTech works with companies in multiple industries with different needs. So I really like the prospect of being exposed to different kind of projects instead of the same thing over and over.
@@ -29,7 +32,7 @@ function Reasons ()
                </div>
 
                <div className="col reason-four" data-aos="fade-right">
-                  <img src={reasonFourImg} alt="" width="350px"></img>
+                  <img src={reasonFourImg} alt="" width="100%"></img>
                   <h5 className="mt-5">Annual FoosFest</h5>
                   <p>
                      I read that the company hosts foosbal tournaments. I think of myself as a worthy player and look forward to taking on the current champion. &#128540;
@@ -39,10 +42,10 @@ function Reasons ()
             </div>
 
             {/* RIGHT side */ }
-            <div className="col mt-5 reasons">
+            <div className="col mt-5 col-lg-5 mx-auto">
 
                <div className="col text-lg-end reason-one" data-aos="fade-left">
-                  <img src={reasonOneImg} alt="" width="350px"></img>
+                  <img src={reasonOneImg} alt="" width="100%"></img>
                   <h5 className="mt-5">Opportunity to grow</h5>
                   <p>
                      One aspect of the SovTech culture that stands out is how much learning appears to be valued, which is why I want to join the team.
@@ -51,7 +54,7 @@ function Reasons ()
                </div>
 
                <div className="col text-lg-end reason-three" data-aos="fade-left">
-                  <img src={reasonThreeImg} alt="" width="350px"></img>
+                  <img src={reasonThreeImg} alt="" width="100%"></img>
                   <h5 className="mt-5">The Tech Stack</h5>
                   <p>
                      Even though the future is uncertain, at the moment JS seems to be taking over. So it excites me knowing that SovTech embraces a stack that is in sync with the industry and possibly the future. &#9994;
