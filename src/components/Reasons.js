@@ -1,8 +1,8 @@
 import SovTechLogo from "../images/sovtech-logo.png";
 import reasonOneImg from "../images/reason-1.jpg";
-import reasonTwoImg from "../images/reason-2.jpg";
-import reasonThreeImg from "../images/reason-3.jpg";
-import reasonFourImg from "../images/reason-4.jpg";
+import reasonTwoImg from "../images/reason-2-min.jpg";
+import reasonThreeImg from "../images/reason-3-min.jpg";
+import reasonFourImg from "../images/reason-4-min.jpg";
 
 
 function Reasons ()
