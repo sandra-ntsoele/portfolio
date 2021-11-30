@@ -1,5 +1,7 @@
 # Sandra Ntsoele's Portfolio
 
+A [landing page](https://sandra-ntsoele.netlify.app/) describing me and why I want to be a software developer.
+
 ## Technologies Used
 
 - JavaScript
